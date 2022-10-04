@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icons-partners';
+  src:  url('../fonts/icons-partners.eot?2jsiu2');
+  src:  url('../fonts/icons-partners.eot?2jsiu2#iefix') format('embedded-opentype'),
+    url('../fonts/icons-partners.ttf?2jsiu2') format('truetype'),
+    url('../fonts/icons-partners.woff?2jsiu2') format('woff'),
+    url('../fonts/icons-partners.svg?2jsiu2#icons-partners') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_iconPartners-"]::before, [class*=" _iconPartners-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-partners' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._iconPartners-apple:before {
+  content: "\e900";
+}
+._iconPartners-atl:before {
+  content: "\e901";
+}
+._iconPartners-audi:before {
+  content: "\e902";
+}
+._iconPartners-bb:before {
+  content: "\e903";
+}
+._iconPartners-fb:before {
+  content: "\e904";
+}
